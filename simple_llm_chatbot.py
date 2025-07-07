@@ -3,7 +3,7 @@
 import requests
 import os
 
-API_URL = "https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta"
+API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2"
 API_TOKEN = os.getenv("HF_API_TOKEN")
 
 headers = {
