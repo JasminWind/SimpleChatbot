@@ -3,7 +3,7 @@ import streamlit as st
 import requests
 import os
 
-API_URL = "API_URL = "https://api-inference.huggingface.co/models/google/flan-t5-large""
+API_URL = "API_URL = "https://api-inference.huggingface.co/models/google/flan-t5-large"
 API_TOKEN = os.getenv("HF_API_TOKEN")
 print("API_TOKEN:", API_TOKEN)  # <-- Add this line for debugging
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
