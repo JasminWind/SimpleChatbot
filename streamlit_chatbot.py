@@ -19,5 +19,5 @@ def query(payload):
 st.title("Simple LLM Chatbot")
 user_input = st.text_input("You:", "")
 if user_input:
-    data = query({"inputs": user_input})
+    data = query({"prompt": user_input})
     st.write("Bot:", data[0]["generated_text"].strip())
